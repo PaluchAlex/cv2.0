@@ -1,0 +1,56 @@
+/********************TAG STYLING********************/
+body {
+    background-color: #b3fbfa;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Nothing You Could Do', cursive;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+/* div{
+    background-color: #bcf9ff;
+} */
+/********************CLASS STYLING********************/
+.top-container{
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;   
+}
+.mountain{
+    position: relative;
+}
+.profile-pic{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+.middle-container{
+}  
+.bottom-container{
+}
