@@ -24,6 +24,25 @@
         />
     </head>
     <body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#hello-h">Alex</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#proj-h">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skill-h">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-h">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         <div class="top-container">
             <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
             <h1>Paluch Alex</h1>
@@ -44,14 +63,14 @@
                     src="images/alex2.png"
                     alt="Alex's profile-pic"
                 />
-                <h2>Hello.</h2>
+                <h2 id="hello-h">Hello.</h2>
                 <p class="intro">
                     Lorem ipsum dolor sit amet, vitae volutpat, dui conubia,
                     dolor urna. Non auctor, montes nulla distinctio.
                 </p>
             </div>
             <hr />
-            <h2>Projects.</h2>
+            <h2 id="proj-h">Projects.</h2>
             <!-- carousel -->
             <div id="projects-carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -115,9 +134,9 @@
                     <span class="sr-only">Next</span>
                   </a>
             </div>
-
+            <hr>
             <div class="skills">
-                <h2>My Skills.</h2>
+                <h2 id="skill-h">My Skills.</h2>
                 <div class="skill-row">
                     <img
                         class="skill-img"
@@ -147,21 +166,21 @@
             </div>
             <hr />
             <div class="contact-me">
-                <h2>Get In Touch</h2>
-                <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+                <h2 id="contact-h">Get In Touch</h2>
+                <h3>Feel free to email me if you have any questions</h3>
                 <p class="contact-message">
                     Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus
                     sodales, tellus donec dui, ornare erat.
                 </p>
                 <a class="BUTTON_LCC" href="mailto:alexpaluch43@gmail.com"
-                    >CONTACT ME</a
+                    >EMAIL ME</a
                 >
             </div>
         </div>
         <div class="bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/">Twitter</a>
-            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+            <a class="footer-link" href="https://www.linkedin.com/in/alex-paluch-5b9783271">LinkedIn</a>
+            <a class="footer-link" href="https://github.com/PaluchAlex">GitHub</a>
+            <a class="footer-link" href="https://www.instagram.com/alex_paluch/">Instagram</a>
             <p id="copyright">© 2023 Paluch Alex-Sebastian.</p>
         </div>
         <!-- bootstrap functionality -->

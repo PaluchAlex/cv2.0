@@ -15,7 +15,7 @@ hr{
 }
 h1{
     font-size: 5rem;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 0px auto;
     font-family: 'Nothing You Could Do', cursive;
     color: #66BFBF;
 }
@@ -80,6 +80,7 @@ p{
     border-radius: 100%;
     height: 200px;
     width: 200px;
+    margin-bottom: 15px;
 }
 .skills{
     position: relative;
@@ -104,11 +105,16 @@ p{
     width: 40%;
     margin: 40px auto 60px;
 }
+/* id styling */
+#projects-carousel{
+    padding-top: 30px;
+}
 #copyright{
     color: #EAF6F6;
     font-size: 0.75rem;
     padding-top: 20px;
 }
+/* button */
 .BUTTON_LCC {
     background: #11CDD4;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
