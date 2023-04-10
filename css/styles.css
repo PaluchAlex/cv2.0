@@ -14,9 +14,10 @@ hr{
     margin: 100px auto 100px auto;
 }
 h1{
-    font-size: 5rem;
+    font-size: 6rem;
     margin: 50px auto 0px auto;
-    font-family: 'Nothing You Could Do', cursive;
+    /* font-family: 'Nothing You Could Do', cursive; */
+    font-family: 'Dancing Script', cursive;
     color: #66BFBF;
 }
 h2{
