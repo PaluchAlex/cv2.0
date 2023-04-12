@@ -116,38 +116,20 @@ p{
     padding-top: 20px;
 }
 /* button */
-.BUTTON_LCC {
+.btn-email{
     background: #11CDD4;
-    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
     border-radius: 8px;
-    color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: 100;
-    padding: 10px 15px 10px 15px;
-    text-shadow: 1px 1px 20px #000000;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
- }
- 
- .BUTTON_LCC:hover {
+    color: #FFFFFF;
+
+}
+.btn-email:hover{
     border: solid #337FED 1px;
     background: #30E3CB;
-    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
     text-decoration: none;
- }
+    color: #FFFFFF;
+}
